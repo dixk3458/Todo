@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AddTodo from '../AddTodo/AddTodo';
 
 export default function TodoList() {
   const [todos, setTodos] = useState([
@@ -18,11 +19,16 @@ export default function TodoList() {
       status: 'completed',
     },
   ]);
+
+  const handleAdd = item => setTodos([...todos, item]);
   return (
-    <ul>
-      {todos.map(item => {
-        return <li key={item.id}>{item.text}</li>;
-      })}
-    </ul>
+    <section>
+      <ul>
+        {todos.map(item => {
+          return <li key={item.id}>{item.text}</li>;
+        })}
+      </ul>
+      <AddTodo onAdd={handleAdd} />
+    </section>
   );
 }
