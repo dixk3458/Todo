@@ -8,6 +8,7 @@
   --color-bg-white: #ffffff;
   --color-text: #22243b;
   --color-grey: #d1d1d1;
+  --color-grey-light: #f5f4f4;
 }
 
 #root {
@@ -20,6 +21,10 @@
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -35,6 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--color-grey);
+  font-size: 1.2rem;
 }
 
 code {
