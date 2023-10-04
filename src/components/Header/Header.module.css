@@ -54,9 +54,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    padding: 0 0.2rem;
+  }
+
   .icon {
-    margin:0 0.6rem;
-    padding:0.4rem;
+    margin: 0 0.6rem;
+    padding: 0.4rem;
   }
 
   .darkModeBtn {
