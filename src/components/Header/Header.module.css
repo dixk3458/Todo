@@ -2,8 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 0.5rem;
   border-bottom: 1px solid var(--color-grey);
   background-color: transparent;
+}
+
+.icon {
+  background-color: var(--color-grey);
+  border-radius: 100%;
+  padding: 0.6rem;
+  margin: 0 1.1rem;
+}
+
+.darkModeBtn {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 150ms ease-out;
+}
+
+.darkModeBtn:hover {
+  transform: scale(1.2);
+  color: var(--color-yellow);
 }
 
 .filters {
@@ -13,7 +34,7 @@
 .filter {
   margin: 0.3rem;
   background-color: transparent;
-  color: var(--color-bg-dark);
+  color: var(--color-text);
   text-transform: capitalize;
   opacity: 0.8;
   font-size: 1.4rem;
@@ -29,5 +50,5 @@
   content: '';
   display: block;
   margin-top: 0.2rem;
-  border: 1px solid var(--color-bg-dark);
+  border: 1px solid var(--color-text);
 }
