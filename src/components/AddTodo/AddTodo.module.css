@@ -30,3 +30,17 @@
 .button:hover {
   filter: brightness(93%);
 }
+
+@media screen and (max-width: 768px) {
+  .form {
+    padding: 1.2rem 0.6rem;
+  }
+
+  .input {
+    font-size: 0.8rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+  }
+}

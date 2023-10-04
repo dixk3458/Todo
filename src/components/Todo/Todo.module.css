@@ -45,3 +45,30 @@
   color: var(--color-text);
   background-color: transparent;
 }
+
+@media screen and (max-width: 768px) {
+  .todo {
+    margin: 0.4rem 1rem;
+  }
+
+  .checkbox {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
