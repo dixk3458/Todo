@@ -10,7 +10,11 @@ export default function Todo({ item, onUpdate, onDelete }) {
     onUpdate({ ...item, status: status });
   };
   return (
-    <li className={styles.todo}>
+    <li
+      className={`${styles.todo} ${
+        status === 'completed' ? styles.completed : styles.active
+      }`}
+    >
       <input
         type="checkbox"
         className={styles.checkbox}

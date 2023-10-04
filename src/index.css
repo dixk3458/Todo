@@ -1,9 +1,9 @@
 :root {
   --color-bg-main: #ffffff;
   --color-bg-sub: #d1d1d1;
-  --color-accent: #8d96ad;
+  --color-accent: #958dad;
   --color-text: #22243b;
-  --color-active: #a8d672;
+  --color-active: #9496ee;
   --color-completed: #98b7db;
 
   --color-grey: #9d9a9a;
@@ -18,7 +18,7 @@ html.dark {
   --color-bg-sub: #000000;
   --color-accent: #eafef6;
   --color-text: #ffffff;
-  --color-active: #f7d44c;
+  --color-active: #eecc45;
   --color-completed: #eb7a53;
 }
 
